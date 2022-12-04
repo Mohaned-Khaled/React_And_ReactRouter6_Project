@@ -1,0 +1,35 @@
+.trainer_img {
+  border-radius: 0 2rem;
+  overflow: hidden;
+}
+
+.trainer p {
+  margin-top: 0.5rem;
+}
+
+.trainer h3 {
+  margin-top: 2rem;
+}
+
+.trainer_socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.trainer_socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  background-color: var(--color-orange);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  transition: var(--transition);
+}
+
+.trainer_socials a:hover {
+  background-color: var(--color-secondary-bg);
+}

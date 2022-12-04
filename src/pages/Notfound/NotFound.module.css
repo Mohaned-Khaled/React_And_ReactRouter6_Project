@@ -1,0 +1,21 @@
+.notfound {
+  margin-top: 10rem;
+  display: grid;
+  place-items: center;
+}
+
+.notfound_container {
+  text-align: center;
+  padding: 8rem;
+}
+
+.notfound_container a {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .notfound_container {
+    text-align: center;
+    padding: 3rem;
+  }
+}

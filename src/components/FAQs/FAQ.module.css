@@ -1,0 +1,30 @@
+.faq {
+  background-color: var(--color-secondary-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.faq div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq_icon {
+  background-color: transparent;
+  color: var(--color-main);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.faq p {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .faq {
+    width: 100%;
+    margin-inline: auto;
+  }
+}

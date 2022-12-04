@@ -1,0 +1,20 @@
+.values_value {
+  padding-top: 3.5rem;
+  text-align: left;
+  position: relative;
+}
+
+.values_value span {
+  position: absolute;
+  top: -1.5rem;
+}
+
+.testimonials {
+  position: relative;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.trainer {
+  padding: 1rem;
+}

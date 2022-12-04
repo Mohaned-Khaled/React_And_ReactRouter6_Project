@@ -1,0 +1,19 @@
+.trainers_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 4rem;
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .trainers_container {
+    gap: 2, 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .trainers_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
