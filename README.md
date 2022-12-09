@@ -1,4 +1,4 @@
-# Nike Store Commerce Web Application! Check Live: [https://fitness-world-app.netlify.app/)
+# Fitness Application! Check Live: [https://fitness-world-app.netlify.app/)
 This project is developed by MOHANAD KHALED
 
 # Getting Started with Create React App
